@@ -1,12 +1,12 @@
+h1::before {
+  content: '';
+}
+
+header {
+  padding: 20px 0 0;
+}
+
 ---
 ---
 
 @import "{{ site.theme }}";
-
-h1::before {
-  content: ''!important;
-}
-
-header {
-  padding: 20px 0 0!important;
-}
