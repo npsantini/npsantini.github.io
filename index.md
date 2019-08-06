@@ -1,4 +1,4 @@
-# Nick Santini's GitHub
+<style>img {width:100%; max-width:400px;}</style>
 ## Repositories
 * [Race Results Python App](https://github.com/npsantini/race-results)
 ![Race Results App](https://github.com/npsantini/race-results/raw/master/race-results-app-2.JPG "Race Results App")
