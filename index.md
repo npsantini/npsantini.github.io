@@ -7,4 +7,4 @@
 
 
 
-[Test Page](https://npsantini.github.io/test)
+[Resume](https://npsantini.github.io/resume)
