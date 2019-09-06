@@ -12,9 +12,12 @@
 
 ## Contact Me
 <form action="https://formspree.io/nick.santini@uky.edu" method="POST">
-  <input type="text" name="Name"><br>
-  <input type="text" name="Email Address"><br>
-  <textarea name="Message"></textarea>
+  <label>Name</label><br>
+  <input type="text" name="Name" required><br>
+  <label>E-mail</label><br>
+  <input type="text" name="Email Address" required><br>
+  <label>Message:</label><br>
+  <textarea name="Message" required></textarea><br>
   <button type="submit">Send</button>
 </form>
 
