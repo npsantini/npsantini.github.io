@@ -15,6 +15,7 @@
   <input type="text" name="Name"><br>
   <input type="text" name="Email Address"><br>
   <textarea name="Message"></textarea>
+  <button type="submit">Send</button>
 </form>
 
 
