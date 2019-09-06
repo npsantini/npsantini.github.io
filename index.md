@@ -9,8 +9,9 @@
 <a href="https://github.com/npsantini/Code-39-Barcode-Generator" target="_blank">
 ![Code 39 Barcode Generator](https://github.com/npsantini/Code-39-Barcode-Generator/raw/master/barcode-generator-example.jpg "Code 39 Barcode Generator")
   </a>
-
+<hr>
 ## Contact Me
+<hr>
 <form action="https://formspree.io/nick.santini@uky.edu" method="POST">
   <label>Name</label><br>
   <input type="text" name="Name" required><br>
