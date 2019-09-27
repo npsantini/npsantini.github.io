@@ -9,6 +9,7 @@
 	<body>
 		<h1>Redirect Page</h1>
 		<script>
+		$( document ).ready(function() {
 			var authCodeQuery = window.location.search.split("&");
 			var authCode = authCodeQuery[0].replace("?code=", "");
 			console.log(authCode);
@@ -31,6 +32,7 @@
 			xhr.setRequestHeader("cache-control", "no-cache");
 
 			xhr.send(data);
+		});
 		</sript>
 	</body>
 </html>
