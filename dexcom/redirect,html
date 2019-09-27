@@ -4,5 +4,29 @@
 	</head>
 	<body>
 		<h1>Redirect Page</h1>
+		<script>
+			var authCodeQuery = window.location.search.split("&");
+			var authCode = authCodeQuery[0].replace("?code=", "");
+			console.log(authCode);
+
+			var data = "client_secret=2r8VThR01IfvMhKP&client_id=aPRu1PIFgaBtR0WBfXnFIyh2n0cXuow2&code=" + authCode + "&grant_type=authorization_code&redirect_uri=https://npsantini.github.io/dexcom/redirect2.html";
+
+
+
+			var xhr = new XMLHttpRequest();
+			xhr.withCredentials = true;
+
+			xhr.addEventListener("readystatechange", function () {
+			  if (this.readyState === 4) {
+			    console.log(this.responseText);
+			  }
+			});
+
+			xhr.open("POST", "https://sandbox-api.dexcom.com/v2/oauth2/token");
+			xhr.setRequestHeader("content-type", "application/x-www-form-urlencoded");
+			xhr.setRequestHeader("cache-control", "no-cache");
+
+			xhr.send(data);
+		</sript>
 	</body>
 </html>
