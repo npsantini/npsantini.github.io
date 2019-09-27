@@ -9,7 +9,7 @@
 	<body>
 		<h1>Redirect Page</h1>
 		<script>
-		$( document ).ready(function() {
+		$(function() {
 			var authCodeQuery = window.location.search;
 			var authCode = authCodeQuery.replace("?code=", "");
 			console.log(authCode);
